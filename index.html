@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+        rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+        rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+
+<body class="overflow-x-hidden">
+    <header class="w-full bg-white relative z-50">
+        <div id="head-container"
+            class="flex flex-col md:flex-row justify-between items-center px-4 md:px-10 w-full h-auto md:h-[100px] py-4 md:py-0">
+
+            <div id="head-logo" class="flex items-center mb-4 md:mb-0 w-full md:w-auto justify-between">
+
+                <img src="https://assets.nicepagecdn.com/d2cc3eaa/6433242/images/logo-investment.png" alt=""
+                    class="w-[150px] md:w-[200px]">
+
+                <button id="mobile-menu-button" class="md:hidden text-2xl">
+                    <i class="bi bi-list"></i>
+                </button>
+
+            </div>
+
+            <div id="head-nav" class="text-base md:text-lg font-bold font-[DM Sans] hidden md:block w-full md:w-auto">
+
+                <ul class="flex gap-6 lg:gap-[50px] text-[1rem] flex-wrap justify-center md:justify-start">
+                    <li class="hover:text-[#243be6] hover:scale-[1.1] duration-300">
+                        <a href="">Home</a>
+                    </li>
+
+                    <li class="relative group hover:text-[#243be6] hover:scale-[1.1] duration-300">
+
+                        <a href="">Pages</a>
+                        <i class="bi bi-arrow-bar-down"></i>
+
+                        <ul
+                            class="absolute left-0 w-40 bg-white rounded shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition duration-200 z-50">
+                            <li><a href="" class="block px-4 py-2 hover:bg-[#243be6] hover:text-white rounded">About
+                                    Us</a></li>
+                            <li><a href="#" class="block px-4 py-2 hover:bg-[#243be6] hover:text-white rounded">Our
+                                    Team</a></li>
+                            <li><a href="" class="block px-4 py-2 hover:bg-[#243be6] hover:text-white rounded">FAQ</a>
+                            </li>
+                            <li><a href=""
+                                    class="block px-4 py-2 hover:bg-[#243be6] hover:text-white rounded">Pricing</a></li>
+                            <li><a href="" class="block px-4 py-2 hover:bg-[#243be6] hover:text-white rounded">News</a>
+                            </li>
+
+                        </ul>
+
+                    </li>
+
+                    <li class="hover:text-[#243be6] hover:scale-[1.1] duration-300">
+                        <a href="">Contact Us</a>
+                    </li>
+                    <a href="" class="hover:scale-[1.3] duration-400"><i class="bi bi-search"></i></a>
+                </ul>
+
+            </div>
+
+            <div id="mobile-menu"
+                class="w-full md:hidden hidden flex-col gap-4 mt-4 text-base font-bold font-[DM Sans]">
+                <a href="" class="hover:text-[#243be6] px-4 py-2">Home</a>
+                <a href="" class="hover:text-[#243be6] px-4 py-2">Pages</a>
+                <a href="" class="hover:text-[#243be6] px-4 py-2">Contact Us</a>
+                <a href="" class="hover:text-[#243be6] px-4 py-2"><i class="bi bi-search"></i></a>
+            </div>
+
+        </div>
+
+    </header>
+
+    <section class="bg-[#e7eafd] text-[#111111] py-16">
+        <div id="section_intro_container"
+            class="flex flex-col sm:flex-col md:flex-col items-center justify-between px-[40px] md:flex md:justify-center xl:flex-row xl:gap-[100px] 2xl:gap-[250px]">
+
+
+            <div id="intro_left" class="max-w-md space-y-6 text-center">
+
+                <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold">The Right Partner for Startup <br>Success</h2>
+                <a href="#"
+                    class="inline-flex items-center justify-center px-2 py-3 bg-blue-600 text-white font-semibold rounded-md shadow hover:bg-black transition md:w-auto mb-[50px] w-[160px]">
+                    LEARN MORE <i class="bi bi-arrow-right-short"></i>
+                </a>
+
+            </div>
+
+
+            <div id="intro_right">
+
+                <img src="./Untitled.png" alt=""
+                    class="shrink-0 w-full h-[190px] sm: md:w-full h-[550px] lg:w-[700px lg:h-[650px] object-cover">
+
+            </div>
+
+
+
+        </div>
+    </section>
+
+    <section class="px-4">
+        <div id="section_about_container"
+            class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 my-16 text-center">
+
+            <div data-aos="fade-up">
+                <img src="./download.png" alt="" class="mx-auto mb-5 w-[60px] h-[60px] md:w-[81px] md:h-[81px]">
+                <h2 class="text-xl md:text-[27px] font-bold font-['Plus_Jakarta_Sans'] mb-5">Business Planning</h2>
+                <p class="font-['DM_Sans'] text-base md:text-[20.25px]">Sample text. Click to select the <br> Text
+                    Element.</p>
+            </div>
+
+            <div data-aos="fade-up">
+                <img src="./img2.png" alt="" class="mx-auto mb-5 w-[60px] h-[60px] md:w-[81px] md:h-[81px]">
+                <h2 class="text-xl md:text-[27px] font-bold font-['Plus_Jakarta_Sans'] mb-5">Consulting Services</h2>
+                <p class="font-['DM_Sans'] text-base md:text-[20.25px]">Sample text. Click to select the <br> Text
+                    Element.</p>
+            </div>
+
+            <div data-aos="fade-up">
+                <img src="./img3.png" alt="" class="mx-auto mb-5 w-[60px] h-[60px] md:w-[81px] md:h-[81px]">
+                <h2 class="text-xl md:text-[27px] font-bold font-['Plus_Jakarta_Sans'] mb-5">Inventory Management</h2>
+                <p class="font-['DM_Sans'] text-base md:text-[20.25px]">Sample text. Click to select the <br> Text
+                    Element.</p>
+            </div>
+
+            <div data-aos="fade-up">
+                <img src="./img4.png" alt="" class="mx-auto mb-5 w-[60px] h-[60px] md:w-[81px] md:h-[81px]">
+                <h2 class="text-xl md:text-[27px] font-bold font-['Plus_Jakarta_Sans'] mb-5">Easy to Use</h2>
+                <p class="font-['DM_Sans'] text-base md:text-[20.25px]">Sample text. Click to select the <br> Text
+                    Element.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="mx-auto max-w-[1320px] w-[90%] mb-[6rem]">
+
+        <div id="section_about-us_container" class="grid lg:grid-cols-[2fr_1fr] gap-[50px] justify-between">
+
+            <div class="grid md:grid-cols-2 grid-cols-1 gap-[50px] justify-between ">
+
+                <div id="container_left" class=" w-full flex flex-col justify-center" data-aos="zoom-in-right"
+                    data-aos-duration="1000">
+                    <h2 class="font-bold text-[66px] font-['Plus_Jakarta_Sans']">About Us</h2>
+                    <p class="text-[20px] my-10 font-['DM_Sans']">We believe every idea holds the potential to grow into
+                        something
+                        extraordinary.
+                        Our mission is to
+                        empower startups and businesses with strategic insights, expert guidance, and access to a vast
+                        network of valuable resources and opportunities, helping them thrive and scale successfully.</p>
+                    <button class="self-start mt-10">
+                        <a href=""
+                            class="text-white font-bold rounded-md shadow px-12 py-5 bg-blue-600 hover:bg-black hover:text-white w-100">LEARN
+                            MORE<i class="bi bi-arrow-right-short"></i></a>
+                    </button>
+
+                </div>
+
+                <div id="left-imgs" class=" mt-20" data-aos="zoom-in-up" data-aos-duration="1300">
+                    <img src="./bzn1.jpg" alt=""
+                        class="w-full md:w-[420px] h-[520px] md:h-[320px] object-cover rounded-lg">
+
+                    <div
+                        class="bg-gradient-to-r from-gray-400 to-blue-400  text-center px-[30px] h-[290px] mt-10 rounded-lg flex flex-col items-center py-12 gap-5">
+
+                        <img src="./people.png" alt="people" class="w-[50pxx] h-[81px] object-cover">
+                        <span class="text-4xl text-[#F7F7F7] font-['Plus_Jakarta_Sans']">750+</span>
+                        <p class="text-[#F7F7F7] text-2xl font-['Plus_Jakarta_Sans']">Startups Trust Our Expertise
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div id="right_imgs" class=" lg:mt-40" data-aos="fade-left" data-aos-duration="1300">
+                <img src="./bzn2.jpg" alt=""
+                    class="w-full lg:w-[420px] h-[530px] lg:h-[320px] object-cover mb-10 rounded-lg">
+                <img src="./bzn3.jpg" alt="" class="w-full lg:w-[420px] h-[530px] lg:h-[320px] object-cover rounded-lg">
+            </div>
+        </div>
+
+    </section>
+
+    <section>
+        <h2 class="text-center text-[60px] font-bold font-['Plus_Jakarta_Sans'] mb-20">Why choose us</h2>
+
+        <div id="section_why-us_container"
+            class="flex gap-5 flex-col md:flex md:flex-col px-[15px] xl:px-[40px] xl:flex-row lg:px-[25px]">
+
+            <div class="h-auto min-h-[300px] bg-[#DBDBDB] flex flex-col px-15 justify-center gap-8 rounded-[10px] w-[40%] md:py-[10px] w-full xl:w-[50%]"
+                data-aos="fade-up" data-aos-duration="1000">
+
+                <h3 class="text-[30px]">Startup-First Approach</h3>
+                <p class="text-[18px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore
+                    et
+                    dolore magna aliqua.</p>
+                <a href="#" class="text-[18px] border-b-1 self-start hover:scale-[1.1] duration-[.3s]">LEARN MORE</a>
+
+            </div>
+
+            <div class="h-auto min-h-[300px] bg-blue-600 flex flex-col justify-center px-15 gap-8 text-white rounded-[10px] w-[40%] md:py-[10px] w-full xl:w-[60%] xl:gap-[60px]"
+                data-aos="fade-up" data-aos-duration="1500">
+
+                <h3 class="text-[30px]">Proven Success</h3>
+                <p class="text-[18px]">orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et
+                    dolore magna aliqua.</p>
+                <a href="#" class="text-[18px] border-b-1 self-start hover:scale-[1.1] duration-[.3s]">LEARN MORE</a>
+
+            </div>
+
+            <div class="w-full h-[250px] md:h-[592px]" data-aos="fade-left" data-aos-duration="1300">
+                <img src="./team.jpg" alt="" class="w-full h-full object-cover rounded-[10px]">
+            </div>
+
+        </div>
+
+    </section>
+
+    <section>
+        <div id="section_planning_container"
+            class="flex flex-col lg:flex-row justify-center px-5 gap-[15px] lg:gap-10 mt-[20px]">
+
+            <div id="planning_left" class="flex flex-col w-full lg:w-2/5 py-8 gap-4 lg:gap-5" data-aos="fade-right"
+                data-aos-duration="1500">
+                <p class="text-2xl sm:text-3xl font-light font-['Plus_Jakarta_Sans']">Lost in Financial Planning?</p>
+                <h2
+                    class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-semibold leading-tight font-['Plus_Jakarta_Sans']">
+                    Let us managing your <br class="block lg:hidden"> future
+                </h2>
+
+            </div>
+
+            <div id="planning_right" class="flex flex-col w-full lg:w-2/5 py-8 gap-8 lg:gap-16" data-aos="fade-left"
+                data-aos-duration="1000">
+
+                <p class="text-sm sm:text-base md:text-lg lg:text-[23px] font-['DM_Sans'] font-light leading-relaxed">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                    commodo consequat.
+                </p>
+
+                <button class="inline-block self-start">
+                    <a href="#"
+                        class="inline-block text-lg sm:text-xl font-semibold rounded-[12px] py-4 px-6 sm:py-5 sm:px-8 border border-blue-500 hover:bg-blue-600 hover:text-white transition-colors duration-200">
+                        LEARN MORE
+                    </a>
+                </button>
+
+            </div>
+        </div>
+
+        <div id="planning_bottom_img" class="mt-8 mx-auto w-full max-w-[1200px]" data-aos="fade-up"
+            data-aos-duration="1200">
+            <img src="./team-doctors-meeting7.jpg" alt="Team meeting"
+                class="object-cover rounded-lg mx-auto w-[95%] h-48 sm:h-56 md:h-96 xl:h-[800px] xl:w-[100%]" />
+        </div>
+
+    </section>
+
+    <section>
+        <div id="section_infostatic_container"
+            class="flex flex-wrap justify-center gap-10 sm:gap-16 lg:gap-[150px] py-12 sm:py-16 lg:py-20 px-6 lg:px-[35px] mx-auto">
+
+            <div class="relative px-2 sm:px-4" data-aos="zoom-in-right" data-aos-duration="1700">
+                <span
+                    class="inline-block text-6xl sm:text-7xl lg:text-[105px] text-[#A2ACF5] font-['Plus_Jakarta_Sans'] font-bold">
+                    98
+                </span>
+                <h3
+                    class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-sm sm:text-lg lg:text-[22px] font-semibold">
+                    PROJECTS
+                </h3>
+            </div>
+
+            <div class="relative px-2 sm:px-4" data-aos="zoom-in-up" data-aos-duration="1700">
+                <span
+                    class="inline-block text-6xl sm:text-7xl lg:text-[105px] text-[#A2ACF5] font-['Plus_Jakarta_Sans'] font-bold">
+                    73
+                </span>
+                <h3
+                    class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-sm sm:text-lg lg:text-[22px] font-semibold">
+                    PEOPLE
+                </h3>
+            </div>
+
+            <div class="relative px-2 sm:px-4" data-aos="zoom-in-up" data-aos-duration="1700">
+                <span
+                    class="inline-block text-6xl sm:text-7xl lg:text-[105px] text-[#A2ACF5] font-['Plus_Jakarta_Sans'] font-bold">
+                    28
+                </span>
+                <h3
+                    class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-sm sm:text-lg lg:text-[22px] font-semibold">
+                    YEARS
+                </h3>
+            </div>
+
+            <div class="relative px-2 sm:px-4" data-aos="zoom-in-left" data-aos-duration="1700">
+                <span
+                    class="inline-block text-6xl sm:text-7xl lg:text-[105px] text-[#A2ACF5] font-['Plus_Jakarta_Sans'] font-bold">
+                    12
+                </span>
+                <h3
+                    class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-sm sm:text-lg lg:text-[22px] font-semibold">
+                    OFFICES
+                </h3>
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="bg-black text-white w-full">
+        <div id="footer_top_container"
+            class="flex flex-col lg:flex-row items-start lg:items-center justify-center gap-12 lg:gap-16 py-10 sm:py-14 lg:py-[60px] px-6 sm:px-10">
+
+            <div class="flex flex-col w-full lg:w-[650px] px-2 sm:px-4">
+                <img src="./logo-white.png" alt="logo" class="w-[180px] sm:w-[220px] lg:w-[254px] h-auto mb-4">
+                <p class="text-lg sm:text-xl lg:text-[27px] leading-relaxed">
+                    We provide multiple solutions to help your business drive value, foster
+                    innovation, enhance performance
+                </p>
+            </div>
+
+            <div class="flex flex-col w-full lg:w-[450px] text-base sm:text-lg lg:text-[21px] gap-2">
+                <p class="text-lg sm:text-xl lg:text-[23px] border-b mb-3">HELP</p>
+                <a href="" class="hover:border-b hover:self-start">FAQs</a>
+                <a href="" class="hover:border-b hover:self-start">Services</a>
+                <a href="" class="hover:border-b hover:self-start">Contact Us</a>
+                <a href="" class="hover:border-b hover:self-start">News & Blog</a>
+                <span class="mt-2">
+                    <a href=""><i class="bi bi-facebook mr-5"></i></a>
+                    <a href=""><i class="bi bi-twitter-x mr-5"></i></a>
+                    <a href=""><i class="bi bi-instagram mr-5"></i></a>
+                </span>
+            </div>
+
+            <div class="flex flex-col gap-3 w-full lg:w-[400px] text-base sm:text-lg lg:text-[19px]">
+                <p class="text-lg sm:text-xl lg:text-[23px] border-b mb-3">Get In Touch</p>
+                <p><i class="bi bi-geo-alt"></i> 4 E 12th St, New York, NY 10007, United States</p>
+                <a href="mailto:hi@company.com" class="hover:border-b hover:self-start">
+                    <i class="bi bi-envelope"></i> hi@company.com
+                </a>
+                <a href="" class="hover:border-b hover:self-start">
+                    <i class="bi bi-telephone"></i> +1 (234) 567-8910
+                </a>
+            </div>
+        </div>
+
+        <hr class="border-gray-700">
+
+        <div id="footer_bottom_container"
+            class="flex flex-col sm:flex-row items-center justify-between gap-6 sm:gap-0 mx-6 sm:mx-10 lg:mx-[110px] py-6 sm:py-8 lg:py-10">
+
+            <div
+                class="flex flex-wrap justify-center sm:justify-start gap-6 sm:gap-10 text-base sm:text-lg lg:text-[19px]">
+                <a href="" class="hover:border-b hover:self-start hover:scale-110 duration-200">Home</a>
+                <a href="" class="hover:border-b hover:self-start hover:scale-110 duration-200">About</a>
+                <a href="" class="hover:border-b hover:self-start hover:scale-110 duration-200">Our Team</a>
+                <a href="" class="hover:border-b hover:self-start hover:scale-110 duration-200">Contact</a>
+            </div>
+
+            <div class="text-center sm:text-right text-base sm:text-lg lg:text-[19px]">
+                <p>Nicepage © 2025. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
